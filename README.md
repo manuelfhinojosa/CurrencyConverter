@@ -4,7 +4,7 @@ A desktop **currency conversion application** built with **C# and WPF**, featuri
 
 ---
 
-## 🚀 Why This Project Matters
+## Why This Project Matters
 
 This project showcases the ability to:
 
@@ -18,7 +18,7 @@ It reflects the type of engineering skills often required for desktop software r
 
 ---
 
-## 🛠️ Core Features
+## Core Features
 
 - Intuitive WPF interface for converting between currencies
 - Persistent storage of recent conversions using a database
@@ -28,7 +28,7 @@ It reflects the type of engineering skills often required for desktop software r
 
 ---
 
-## 🧠 Technical Highlights
+## Technical Highlights
 
 ### **Frontend / UI**
 - Built with **WPF (Windows Presentation Foundation)**
@@ -41,19 +41,19 @@ It reflects the type of engineering skills often required for desktop software r
 - Encapsulated data models with clean separation from view logic
 
 ### **Persistence**
-- Local database integration (e.g., SQLite / SQL Server LocalDB)
+- Local database integration (SQL Server LocalDB)
 - Stores conversion history and/or supported currencies
 
 ---
 
-## 📦 Tech Stack
+## Tech Stack
 
 | Category | Technology |
 |----------|------------|
 | Language | C# (latest .NET) |
 | UI | WPF (XAML) |
 | Architecture | MVVM pattern |
-| Database | Local database (e.g., SQLite/LocalDB) |
+| Database | Local database (SQL Server LocalDB) |
 | Tooling | Visual Studio, .NET SDK |
 
 ---
@@ -65,3 +65,12 @@ It reflects the type of engineering skills often required for desktop software r
 ```bash
 git clone https://github.com/manuelfhinojosa/CurrencyConverter.git
 cd CurrencyConverter
+```
+
+### Open & Run
+- Open the solution file (CurrencyConverter.sln) in Visual Studio
+- Restore NuGet packages
+- Build the solution
+- Run the app (F5 or Debug → Start Debugging)
+
+The application will launch as a desktop window where users can enter amounts, select currencies, and see conversion results in real time.
