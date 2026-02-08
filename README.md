@@ -58,7 +58,7 @@ It reflects the type of engineering skills often required for desktop software r
 
 ---
 
-## 💻 Getting Started
+## Getting Started
 
 ### Clone the repository
 
